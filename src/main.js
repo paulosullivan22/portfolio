@@ -1,3 +1,5 @@
+// entry file
+
 let game = new Game()
 
 function setup() {

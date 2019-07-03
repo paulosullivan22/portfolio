@@ -35,8 +35,10 @@ class Background {
         // image(this.bgImageLayer1, this.x11, 0, WIDTH, HEIGHT)
         // image(this.bgImageLayer1, this.x1, 0, WIDTH, HEIGHT)
 
+
         // use for loop to count to 4, 
-        // for each iteration, add 
+        // for each iteration, add a new plate to image scroll
+        // each image should have different features
        
         
         fill(color('red'))
@@ -84,6 +86,8 @@ class Background {
         if (this.x33 <= -WIDTH) {
             this.x33 = WIDTH;
         }
+
+        // loop through to add speeds
 
         if (keyIsDown(RIGHT_ARROW)) {
             this.x1 -= 4.5;
