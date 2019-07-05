@@ -14,6 +14,9 @@ class Background {
       this.x33 = WIDTH;
       this.x333 = WIDTH*2;
       this.x3333 = WIDTH*3
+        // rename variables in array
+
+
     }
   
     setup() {
@@ -29,11 +32,7 @@ class Background {
         // image(this.bgImageLayer3, this.x3, 0, WIDTH, HEIGHT)
 
 
-        // image(this.bgImageLayer2, this.x22, 0, WIDTH, HEIGHT)
-        // image(this.bgImageLayer2, this.x2, 0, WIDTH, HEIGHT)
 
-        // image(this.bgImageLayer1, this.x11, 0, WIDTH, HEIGHT)
-        // image(this.bgImageLayer1, this.x1, 0, WIDTH, HEIGHT)
 
 
         // use for loop to count to 4, 
